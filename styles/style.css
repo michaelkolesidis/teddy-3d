@@ -2,6 +2,9 @@ html,
 body {
   margin: 0;
   font-family: sans-serif;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
 }
 
 body {

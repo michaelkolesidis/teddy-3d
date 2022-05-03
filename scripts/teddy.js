@@ -1,4 +1,6 @@
 let teddy;
+let teddyColor;
+let colored = false;
 
 function preload() {
   // Load model with normalise parameter set to true
@@ -12,19 +14,29 @@ function setup() {
 function draw() {
   background(0);
 
-
-  smooth()
+  smooth();
 
   // Scaled to make model fit into canvas
-  scale(window.innerHeight / 450); 
+  scale(window.innerHeight / 450);
 
-  
-  stroke(0);
-  strokeWeight(0);
+  noStroke();
+
+  ambientLight(108, 108, 108);
+  directionalLight(128, 128, 128, 0, 0, -1);
+
+  normalMaterial();
+
+  if (colored) {
+    fill(teddyColor);
+  }
 
   rotateX(PI / 1.2 + frameCount * 0.01);
   rotateY(PI / 1.2 + frameCount * 0.01);
 
-  normalMaterial();
   model(teddy);
+}
+
+function mousePressed() {
+  teddyColor = color(random(40, 255), random(40, 255), random(40, 255));
+  colored = true;
 }
