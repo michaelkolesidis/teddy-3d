@@ -32,7 +32,7 @@
 
 ## Demo
 
-<img src="./assets/3d-teddy-bear.gif">
+<img src="./assets/3d-teddy-bear.gif" width="500px">
 
 
 
