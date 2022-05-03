@@ -41,7 +41,7 @@ footer {
 footer > p {
   color: white;
   margin: 1rem;
-  font-size: 1.2rem;
+  font-size: 19.2px;
   font-weight: 500;
   letter-spacing: 0.2rem;
 }
@@ -49,7 +49,7 @@ footer > p {
 p > a,
 p > a:visited {
   color: white;
-  font-size: 1.2rem;
+  font-size: 19.2px;
 }
 
 #heart {
