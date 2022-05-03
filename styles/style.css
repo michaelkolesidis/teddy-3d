@@ -33,10 +33,9 @@ footer {
   color: white;
   position: absolute;
   bottom: 0;
-  left: 0;
 }
 
-footer > p {
+p {
   color: white;
   margin: 1rem;
   font-size: 1.2rem;
@@ -44,8 +43,8 @@ footer > p {
   letter-spacing: 0.2rem;
 }
 
-p > a,
-p > a:visited {
+a,
+a:visited {
   color: white;
   font-size: 1.2rem;
 }
@@ -55,13 +54,13 @@ p > a:visited {
 }
 
 @media (max-width: 480px) {
-  footer > p {
+  p {
     font-size: 0.6rem;
     margin: 0.5rem;
   }
 
-  p > a,
-  p > a:visited {
+  a,
+  a:visited {
     font-size: 0.6rem;
   }
 
