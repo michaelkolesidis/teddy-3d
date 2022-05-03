@@ -40,7 +40,7 @@
 - Add lights
 - Add camera
 - Change camera position according to mouse movement
-- Add various textures to be chosen randomly on page load
+- Add multiple textures to be chosen randomly on page load
 
 
 
