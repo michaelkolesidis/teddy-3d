@@ -9,4 +9,3 @@ A 3D Teddy Bear animation made with p5.js to be used as background in my homepag
 - Add lights
 - Add camera
 - Change camera position according to mouse movement
-
