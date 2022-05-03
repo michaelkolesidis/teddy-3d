@@ -1,4 +1,3 @@
-//draw a spinning teddy
 let teddy;
 
 function preload() {
@@ -7,7 +6,7 @@ function preload() {
 }
 
 function setup() {
-  createCanvas(window.innerWidth, window.innerHeight, WEBGL);
+  createCanvas(window.innerWidth, window.innerHeight - 5, WEBGL);
 }
 
 function draw() {
