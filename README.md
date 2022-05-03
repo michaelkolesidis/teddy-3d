@@ -27,7 +27,7 @@
 
 ## Description
 
-<p>A colorful three-dimensional teddy bear that rotates to x-axis and y-axis by itself, according to the frame count. It is created dynamically on page load, according to window dimensions. It is housed in a simple HTML page, with some essential CSS. I made it in order to use it as background in my personal website.</p>
+<p>A colorful three-dimensional teddy bear that rotates to x-axis and y-axis by itself, according to the frame count. Its color changes randomly on click/touch. It is created dynamically on page load, according to window dimensions. It is housed in a simple HTML page, with some essential CSS.</p>
 
 
 
@@ -44,10 +44,7 @@
 
 
 ## To-Do List
-- Add lights
-- Add camera
 - Change camera position according to mouse movement
-- Add multiple textures to be chosen randomly on page load
 
 
 
