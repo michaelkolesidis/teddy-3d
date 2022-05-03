@@ -11,8 +11,11 @@ function setup() {
 
 function draw() {
   background(0);
-  scale(1.4); // Scaled to make model fit into canvas
 
+  smooth()
+
+  scale(1.4); // Scaled to make model fit into canvas
+  
   stroke(0);
   strokeWeight(0);
 
