@@ -1,6 +1,6 @@
 <div align="center">
   <img src="./assets/screenshot-01.png" width="400px">
-  <h1><3D Teddy Bear/h1>
+  <h1>3D Teddy Bear</h1>
   
   <h3>A rotating 3D Teddy Bear animation</h3>
 
