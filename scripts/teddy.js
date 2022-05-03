@@ -8,7 +8,7 @@ function preload() {
 
 function setup() {
   createCanvas(window.innerWidth, window.innerHeight - 5, WEBGL);
-  let button = createButton("auto rotate");
+  // let button = createButton("auto rotate");
   // button.position(window.innerWidth - 85, 5);
   // button.mousePressed(toggleAutoRotate);
 }
