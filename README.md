@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./assets/screenshot-01.png" width="300px">
+  <img src="./assets/screenshot-01.png" width="200px">
   <h1>3D Teddy Bear</h1>
   
   <h3>A rotating 3D Teddy Bear animation</h3>
@@ -32,7 +32,7 @@
 
 ## Demo
 
-<img src="./assets/3d-teddy-bear.gif" width="400px">
+<img src="./assets/3d-teddy-bear.gif" width="350px">
 
 
 
