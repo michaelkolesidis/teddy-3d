@@ -1,7 +1,6 @@
 html,
 body {
   margin: 0;
-  padding: 0;
   font-family: sans-serif;
 }
 
@@ -26,7 +25,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 85vh;
   animation: flash 0.5s infinite;
 }
 
@@ -35,7 +34,6 @@ footer {
   position: absolute;
   bottom: 0;
   left: 0;
-  width: 100%;
 }
 
 footer > p {
