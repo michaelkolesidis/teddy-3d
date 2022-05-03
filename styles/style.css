@@ -22,7 +22,7 @@ body {
 #p5_loading {
   background: black;
   color: white;
-  font-size: 4rem;
+  font-size: 8rem;
   display: flex;
   justify-content: center;
   align-items: center;
