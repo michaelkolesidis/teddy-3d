@@ -35,9 +35,10 @@ footer {
   position: absolute;
   bottom: 0;
   left: 0;
+  width: 100%;
 }
 
-#footer-text {
+footer > p {
   color: white;
   margin: 1rem;
   font-size: 1.2rem;
@@ -45,9 +46,10 @@ footer {
   letter-spacing: 0.2rem;
 }
 
-a,
-a:visited {
+p > a,
+p > a:visited {
   color: white;
+  font-size: 1.2rem;
 }
 
 #heart {
