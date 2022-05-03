@@ -41,7 +41,7 @@ footer {
 footer > p {
   color: white;
   margin: 1rem;
-  font-size: 19.2px;
+  font-size: 1.2rem;
   font-weight: 500;
   letter-spacing: 0.2rem;
 }
@@ -49,9 +49,25 @@ footer > p {
 p > a,
 p > a:visited {
   color: white;
-  font-size: 19.2px;
+  font-size: 1.2rem;
 }
 
 #heart {
   font-size: 1.6rem;
+}
+
+@media (max-width: 480px) {
+  footer > p {
+    font-size: 0.6rem;
+    margin: 0.5rem;
+  }
+
+  p > a,
+  p > a:visited {
+    font-size: 0.6rem;
+  }
+
+  #heart {
+    font-size: 0.8rem;
+  }
 }
