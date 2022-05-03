@@ -44,11 +44,11 @@ p {
 
 a,
 a:visited {
-  font-size: .2rem;
+  font-size: 1.2rem;
 }
 
 #heart {
-  font-size: .6rem;
+  font-size: 1.6rem;
 }
 
 @media (max-width: 480px) {
