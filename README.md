@@ -26,7 +26,7 @@
 
 ## Description
 
-<p></p>
+<p>A colorful three-dimensional teddy bear that rotates to x-axis and y-axis by itself, according to the frame count. It is created dynamically on page load, according to window dimensions. It is housed in a simple HTML page, with some essential CSS. I made it in order to use it as background in my personal website.</p>
 
 
 
