@@ -8,7 +8,7 @@ function preload() {
 }
 
 function setup() {
-  createCanvas(window.innerWidth, window.innerHeight - 5, WEBGL);
+  createCanvas(window.innerWidth - 5, window.innerHeight - 5, WEBGL);
 }
 
 function draw() {
