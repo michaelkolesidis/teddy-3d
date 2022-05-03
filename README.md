@@ -37,6 +37,12 @@
 
 
 
+## Screenshot
+
+<img src="./assets/screenshot-02.png" width="400px">
+
+
+
 ## To-Do List
 - Add lights
 - Add camera
