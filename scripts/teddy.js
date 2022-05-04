@@ -36,7 +36,15 @@ function draw() {
   model(teddy);
 }
 
-function mousePressed() {
+function colorize() {
   teddyColor = color(random(40, 255), random(40, 255), random(40, 255));
   colored = true;
+}
+
+function mousePressed() {
+  colorize();
+}
+
+function keyPressed() {
+  colorize();
 }
