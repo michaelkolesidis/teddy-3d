@@ -30,6 +30,7 @@
 <p>A colorful three-dimensional teddy bear that rotates to x-axis and y-axis by itself, according to the frame count.</p>
 
 - Its color changes randomly on click/touch
+- It's color changes randomly on keypress
 - It is created dynamically on page load, according to window dimensions
 - It is housed in a simple HTML page, with some essential CSS
 
