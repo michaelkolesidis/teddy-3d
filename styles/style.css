@@ -18,6 +18,7 @@ html {
 }
 
 #p5_loading {
+  color: #fff;
   font-size: 20vw;
   display: flex;
   justify-content: center;
