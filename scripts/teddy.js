@@ -38,6 +38,11 @@ function draw() {
 
 function colorize() {
   teddyColor = color(random(40, 255), random(40, 255), random(40, 255));
+  console.log(
+    `%cTeddy color: ${teddyColor}`,
+    `color: ${teddyColor};
+     font-weight: 600;`
+  );
   colored = true;
 }
 
