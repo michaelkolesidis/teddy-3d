@@ -1,6 +1,7 @@
 let teddy;
 let teddyColor;
 let colored = false;
+let backgroundColor;
 
 function preload() {
   // Load model with normalise parameter set to true
@@ -9,10 +10,11 @@ function preload() {
 
 function setup() {
   createCanvas(window.innerWidth - 5, window.innerHeight - 5, WEBGL);
+  backgroundColor = color(0, 0, 0);
 }
 
 function draw() {
-  background(0);
+  background(backgroundColor);
 
   smooth();
 
@@ -38,6 +40,8 @@ function draw() {
 
 function colorize() {
   teddyColor = color(random(40, 255), random(40, 255), random(40, 255));
+  backgroundColor = color(random(40), random(40), random(40));
+  
   console.log(
     `%cTeddy color: ${teddyColor}`,
     `color: ${teddyColor};

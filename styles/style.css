@@ -1,7 +1,3 @@
-* {
-  color: #fff;
-}
-
 body,
 html {
   margin: 0;
@@ -27,24 +23,27 @@ html {
   justify-content: center;
   align-items: center;
   height: 85vh;
-  animation: flash .5s infinite;
+  animation: flash 0.5s infinite;
 }
 
 footer {
   position: absolute;
   bottom: 0;
+  mix-blend-mode: difference;
 }
 
 p {
   margin: 1rem;
   font-size: 1.2rem;
   font-weight: 500;
-  letter-spacing: .2rem;
+  letter-spacing: 0.2rem;
+  color: #fff;
 }
 
 a,
 a:visited {
   font-size: 1.2rem;
+  color: #fff;
 }
 
 #heart {
@@ -53,16 +52,16 @@ a:visited {
 
 @media (max-width: 480px) {
   p {
-    font-size: .6rem;
-    margin: .5rem;
+    font-size: 0.6rem;
+    margin: 0.5rem;
   }
 
   a,
   a:visited {
-    font-size: .6rem;
+    font-size: 0.6rem;
   }
 
   #heart {
-    font-size: .8rem;
+    font-size: 0.8rem;
   }
 }
