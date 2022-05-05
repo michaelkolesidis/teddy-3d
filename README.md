@@ -45,7 +45,7 @@
 
 
 
-## Screenshot
+## Screenshots
 
 <img src="./assets/screenshot-02.png" width="400px">
 
