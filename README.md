@@ -51,11 +51,6 @@
 
 
 
-## To-Do List
-- Change camera position according to mouse movement
-
-
-
 ## Related Projects
 
 - [3D Cube](https://github.com/michaelkolesidis/3d-cube)
