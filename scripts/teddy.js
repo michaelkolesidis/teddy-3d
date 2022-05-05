@@ -65,3 +65,7 @@ function mousePressed() {
 function keyPressed() {
   colorize();
 }
+
+function windowResized() {
+  resizeCanvas(window.innerWidth - 5, window.innerHeight - 5);
+}
