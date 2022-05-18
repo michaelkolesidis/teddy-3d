@@ -41,7 +41,6 @@
 ## Demo
 
 <img src="./assets/teddy-02.gif" width="500px">
-<img src="./assets/teddy-01.gif" width="350px">
 
 
 
