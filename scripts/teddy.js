@@ -9,7 +9,7 @@ function preload() {
 }
 
 function setup() {
-  createCanvas(window.innerWidth - 5, window.innerHeight - 5, WEBGL);
+  createCanvas(window.innerWidth, window.innerHeight, WEBGL);
   backgroundColor = color(0, 0, 0);
 }
 
@@ -67,5 +67,5 @@ function keyPressed() {
 }
 
 function windowResized() {
-  resizeCanvas(window.innerWidth - 5, window.innerHeight - 5);
+  resizeCanvas(window.innerWidth, window.innerHeight);
 }

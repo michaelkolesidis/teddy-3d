@@ -27,6 +27,12 @@ html {
   animation: flash 0.5s infinite;
 }
 
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
 footer {
   position: absolute;
   bottom: 0;
