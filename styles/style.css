@@ -1,7 +1,7 @@
 body,
 html {
   margin: 0;
-  background: #000;
+  background: rgba(0, 0, 0, 0);
   font-family: sans-serif;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -31,6 +31,7 @@ canvas {
   position: fixed;
   top: 0;
   left: 0;
+  z-index: -1;
 }
 
 footer {
