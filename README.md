@@ -35,7 +35,7 @@
 - Teddy can be moved by mouse/touch along with its rotation
 - It is created dynamically on page load, according to window dimensions
 - It is housed in a simple HTML page, with some essential CSS
-
+- Double-click anywhere to enter fullscreen mode, double-click again (or press ESC) to leave fullscreen mode.
 
 
 ## Demo
